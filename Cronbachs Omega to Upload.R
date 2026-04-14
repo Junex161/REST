@@ -15,7 +15,7 @@ print(omega_result$omega.tot)  # Gesamt-Omega
 print(omega_result$omega.h)    # Hierarchisches Omega
 
 
-setwd("C:/Users/juley/Desktop/päda neuro science/HEINE TEXT/R Code")
+setwd(YOUR WORKING DIRECTORY)
 msbs_dat <- read.csv(YOUR WORKING DIRECTORY)
 library(psych)
 items <- msbs_dat[, paste0("MSBS_", sprintf("%02d", 1:29))]
