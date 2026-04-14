@@ -16,7 +16,7 @@ print(omega_result$omega.h)    # Hierarchisches Omega
 
 
 setwd(YOUR WORKING DIRECTORY)
-msbs_dat <- read.csv(YOUR WORKING DIRECTORY)
+msbs_dat <- read.csv("msbs_items_post.csv")
 library(psych)
 items <- msbs_dat[, paste0("MSBS_", sprintf("%02d", 1:29))]
 
